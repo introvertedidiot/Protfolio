@@ -1,0 +1,7 @@
+/* 
+    main style for the site
+    this contains defaults or overall style
+*/
+
+@import url(colors.css);
+@import url(textStyles.css);
