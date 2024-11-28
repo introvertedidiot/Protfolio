@@ -2,12 +2,30 @@
 contains the colors of the site
 */
 
-:root{
-    --headerBg: gray;
+:root {
+    --headerBg: #34383d;
 
-    --mainBG: rgb(110, 125, 133);
-    --SectionBg: lightGray;
+    --mainSectionBg: #415A77;
+    --secondarySectionBg: #1B263B;
 
-    --textColor1: white;
-    --textColorHover: rgb(231, 151, 151);
+    --headerShadow: #1c2733;
+    --workShadow: #000000;
+
+    /* buttons/site nav Tabs */
+
+    --navButtonBg: #2d3b4d;
+    --navButtonHoverBg: #879ebd;
+    --navButtonShadow: #000000;
+    
+    /* scroll bar */
+    --scrollBarThumb: #6C757D;
+    --scrollBarTrack: #ADB5BD;
+
+    /* text color */
+
+    --textColor: #F8F9FA;
+    --textColor2: #ebf0f5;
+    --textColor3: #b0b3b6;
+
+    --textHoverColor: #badafa;
 }
