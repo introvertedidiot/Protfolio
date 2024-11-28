@@ -1,0 +1,49 @@
+/* 
+   contains navigation style
+*/
+
+header {
+    display: grid;
+    place-content: center;
+
+    background-color: var(--headerBg);
+    box-shadow: 0 2px 10px black;
+
+
+    width: 100%;
+    height: auto;
+
+    padding: 20px;
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: var(--headerBg);
+    box-shadow: 0 2px 10px black;
+
+    width: 50vw;
+
+    margin-top: 10px;
+
+    padding-bottom: 20px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mainNav a {
+    background-color: var(--headerBg);
+
+    width: 50vw;
+
+    margin-top: 20px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+

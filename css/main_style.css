@@ -5,3 +5,42 @@
 
 @import url(colors.css);
 @import url(textStyles.css);
+@import url(NavStyle.css);
+
+body {
+    overflow: hidden;
+    background-color: var(--mainBG);
+    margin: 0;
+    padding: 0;
+
+    width: auto;
+    height: 100%;
+}
+
+.contentContainer {
+    overflow-y:auto ;
+
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.aboutMeContainer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+.aboutMeContactContainer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+
+.span2Columns{
+    grid-column: span 2;
+}
+

@@ -3,5 +3,11 @@ contains the colors of the site
 */
 
 :root{
-    
+    --headerBg: gray;
+
+    --mainBG: rgb(110, 125, 133);
+    --SectionBg: lightGray;
+
+    --textColor1: white;
+    --textColorHover: rgb(231, 151, 151);
 }
