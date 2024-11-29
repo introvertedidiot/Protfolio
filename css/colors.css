@@ -3,9 +3,9 @@ contains the colors of the site
 */
 
 :root {
-    --headerBg: #34383d;
+    --headerBg: #d0e4d9;
 
-    --mainSectionBg: #415A77;
+    --mainSectionBg: #fffaf9;
 
     --headerShadow: #1c2733;
     --workShadow: #000000;
