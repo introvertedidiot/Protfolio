@@ -146,21 +146,21 @@ header {
 
 .worksContainer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
     place-content: center;
     width: auto;
     height: auto;
+    transform: scale(.7);
 
-    margin: 20px;
-    padding-bottom: 20px;
+    margin: 10px;
+    padding-bottom: 10px;
 }
 
 .worksContainer img {
     box-shadow: 5px 10px 10px var(--workShadow);
-    width: 100%;
-    height: 100%;
-
+    width: 85%;
+    height: auto;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -171,19 +171,44 @@ header {
 }
 
 /* Targets images on the right side */
-.worksContainer img:nth-child(4n+3):hover,
-.worksContainer img:nth-child(4n+4):hover {
+.worksContainer img:nth-child(4n+3):hover{
     transform: scale(1.5) translateY(50px) translateX(-70px);
 }
 
-/* Targets images on the bottom left side */
-.worksContainer img:nth-last-child(-n+4):nth-child(4n+1):hover,
-.worksContainer img:nth-last-child(-n+4):nth-child(4n+2):hover {
+/* Targets images in the last row */
+.worksContainer img:nth-last-child(-n+3):hover {
+    transform: scale(1.5) translateY(-50px);
+}
+
+/* Targets the bottom right image */
+.worksContainer img:nth-last-child(1):hover {
+    transform: scale(1.5) translateY(-50px) translateX(-70px);
+}
+
+.worksContainer img:nth-last-child(3):hover {
     transform: scale(1.5) translateY(-50px) translateX(70px);
 }
 
-/* Targets images on the bottom right side */
-.worksContainer img:nth-last-child(-n+4):nth-child(4n+3):hover,
-.worksContainer img:nth-last-child(-n+4):nth-child(4n+4):hover {
-    transform: scale(1.5) translateY(-50px) translateX(-70px);
+/* featured work container */
+
+.featuredWorkContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    place-items: center;
+    width: auto;
+    height: auto;
+
+    margin: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.featuredWorkContainer img {
+    box-shadow: 5px 10px 10px var(--workShadow);
+    width: 90%;
+    height: auto;
+
 }
