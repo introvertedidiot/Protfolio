@@ -6,7 +6,7 @@ contains the text of the site
 
 h1{
     font-size: 3.5em;
-    color: var(--textColor);
+    color: var(--titleTex);
     margin: 0;
     padding: 0;
 }
@@ -52,6 +52,15 @@ a:hover{
     color: var(--textColor);
 }
 
+.paddedText{
+    padding: 20px;
+}
+
 .centerText{
+    display: block;
     text-align: center;
+}
+
+.outlinedText{
+    text-shadow: 5px 5px 5px black;
 }

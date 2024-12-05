@@ -5,7 +5,7 @@ contains the colors of the site
 :root {
     --headerBg: #d0e4d9;
 
-    --mainSectionBg: #fffaf9;
+    --mainSectionBg: #afafaf;
 
     --headerShadow: #1c2733;
     --workShadow: #000000;
@@ -23,8 +23,7 @@ contains the colors of the site
     /* text color */
 
     --textColor: #F8F9FA;
-    --textColor2: #ebf0f5;
-    --textColor3: #b0b3b6;
+    --titleText: #F8F9FA;
 
     --textHoverColor: #badafa;
 }

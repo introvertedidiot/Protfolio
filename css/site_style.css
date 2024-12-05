@@ -46,8 +46,9 @@ header {
 
 .mainNav a {
 
+    border-radius: 20px;
     background-color: var(--navButtonBg);
-    box-shadow: 1px 2px 5px var(--navButtonShadow);
+    box-shadow: 2px 10px 15px var(--navButtonShadow);
 
     padding: 20px;
 
@@ -105,8 +106,6 @@ header {
 .aboutMeContainer {
     padding-left: 10px;
     padding-right: 10px;
-
-
 }
 
 .aboutMeContainer div {
@@ -156,9 +155,18 @@ header {
     margin: 10px;
     padding-bottom: 10px;
 }
-
+.worksContainer div {
+    display: grid;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 100%;
+  
+}
 .worksContainer img {
+    display: block;
+
     box-shadow: 5px 10px 10px var(--workShadow);
+    place-self: center;
     width: 85%;
     height: auto;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
