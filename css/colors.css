@@ -3,38 +3,26 @@ contains the colors of the site
 */
 
 :root {
-    --headerBg: #d0e4d9;
-
-    --mainSectionBg: #afafaf;
+    --headerBg: #c7d8cf;
+    --mainSectionBg: #f4ebda;
+    /* f4ebda */
 
     --headerShadow: #1c2733;
     --workShadow: #000000;
 
     /* buttons/site nav Tabs */
 
-    --navButtonBg: #c1dad6;
-    --navButtonHoverBg: #879ebd;
+    --navButtonBg: #a3b8ac;
+    --navButtonHoverBg: #afd4bf;
     --navButtonShadow: #000000;
     
     /* scroll bar */
-    --scrollBarThumb: #6C757D;
-    --scrollBarTrack: #ADB5BD;
+    --scrollBarThumb: #d8dfca;
+    --scrollBarTrack: #ac9e9b;
 
     /* text color */
-
-<<<<<<< Updated upstream
-    --textColor: #F8F9FA;
-    --titleText: #F8F9FA;
-=======
-    --textColor: #27230d;
-    --textColor2: #ebf0f5;
-    --textColor3: #b0b3b6;
->>>>>>> Stashed changes
-
-    --textHoverColor: #badafa;
-    --textColor: #27230d;
-    --textColor2: #ebf0f5;
-    --textColor3: #b0b3b6;
-    --textColor: #F8F9FA;
-    --titleText: #F8F9FA;
+    --textColor: #22160f;
+    --titleText: #83665d;
+    --textHoverColor: #768b9e;
+    
 }

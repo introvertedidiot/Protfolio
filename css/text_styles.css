@@ -4,63 +4,104 @@ contains the text of the site
 
 @import url(colors.css);
 
-h1{
+h1 {
     font-size: 3.5em;
-    color: var(--titleTex);
+    color: var(--titleText);
+    /* text-shadow: 2px 2px 1px black; */
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
     margin: 0;
     padding: 0;
 }
 
-h2{
+h2 {
     font-size: 2em;
     color: var(--textColor);
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+
     margin: 0;
     padding: 0;
 }
 
-h3{
+h3 {
     font-size: 1.5em;
     color: var(--textColor);
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
     margin: 0;
     padding: 0;
 }
 
-h4{
+h4 {
     font-size: 1.2em;
     color: var(--textColor);
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
     margin: 0;
     padding: 0;
 }
 
-p{
-    font-size: 1em;
+p {
+    font-size: 1.2em;
     color: var(--textColor);
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     font-size: 1.5em;
     color: var(--textColor);
     text-decoration: none;
 
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
     margin: 0;
     padding: 0;
 }
 
-a:hover{
+a:hover {
     color: var(--textColor);
 }
 
-.paddedText{
+.paddedText {
     padding: 20px;
 }
 
-.centerText{
+.centerText {
     display: block;
     text-align: center;
 }
 
-.outlinedText{
-    text-shadow: 5px 5px 5px black;
+.shadowText {
+    /* text-shadow: 4px 4px 10px rgb(0, 0, 0); */
+}
+
+.outlinedText {
+    /* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
+
 }
