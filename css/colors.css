@@ -12,7 +12,7 @@ contains the colors of the site
 
     /* buttons/site nav Tabs */
 
-    --navButtonBg: #2d3b4d;
+    --navButtonBg: #c1dad6;
     --navButtonHoverBg: #879ebd;
     --navButtonShadow: #000000;
     
@@ -22,8 +22,19 @@ contains the colors of the site
 
     /* text color */
 
+<<<<<<< Updated upstream
     --textColor: #F8F9FA;
     --titleText: #F8F9FA;
+=======
+    --textColor: #27230d;
+    --textColor2: #ebf0f5;
+    --textColor3: #b0b3b6;
+>>>>>>> Stashed changes
 
     --textHoverColor: #badafa;
+    --textColor: #27230d;
+    --textColor2: #ebf0f5;
+    --textColor3: #b0b3b6;
+    --textColor: #F8F9FA;
+    --titleText: #F8F9FA;
 }
