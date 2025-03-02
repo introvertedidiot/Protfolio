@@ -41,18 +41,23 @@ contains the colors of the site
     --profilePicBg: rgb(95, 89, 89);
     --profilePicShadow: rgb(24, 22, 22);
     --contactBg: rgb(199, 185, 185);
+    --contactHoverBg: rgb(240, 216, 216);
+
+    /* content */
+    --contentTitleBorder: rgb(0, 0, 0);
+    --contentBorder: #313130;
 
     /*
         text color
     */
-    --text: #bebdbd;
+    --text: #ddd3cd;
     --textHover: #d8d8d8;
-    
-    --contentDividers: #dbd8d8;
 
-    --title:#c4c4c4;
+    --title: #a59d98;
     --titleHover: #d8d8d8;
 
-    --contentHeader: #a09e9e;
-    --contentHeaderHover: #eebaba;
+    --dividerText: #d6d3d1;
+
+    --contentHeader: #867a7a;
+    --contentHeaderHover: #e7cccc;
 }

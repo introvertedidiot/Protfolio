@@ -1,17 +1,12 @@
 @import url(colors.css);
 
 
-:root {
-   --headerMargin: 10px;
-}
-
 html {
     scrollbar-color: var(--contentScrollBarThumb) var(--contentScrollBarTrack);
 }
 
 body {
     width: 100vw;
-    /* height: 82.5vh; */
 
     overflow-x: hidden;
 
@@ -22,30 +17,11 @@ body {
 }
 
 /* text */
-h1 {
-    height: 10%;
-    display: block;
-    background-color: var(--pageHeaderBg);
-
-    font-size: 5em;
-    text-align: center;
-    text-decoration: underline;
-
-    box-sizing: border-box;
-    box-shadow: 0 10px 2px -2px var(--headerShadow);
-    padding: var(--headerMargin);
-}
-
-h1:hover {
-    background-color: var(--pageHeaderHoverBg);
-    color: var(--titleHover);    
-}
-
-
 h2 {
     width: 30%;
 
     background-color: var(--pageHeaderBg);
+    color: var(--dividerText);
 
     font-size: 3em;
     box-sizing: border-box;
@@ -118,6 +94,13 @@ a.contacts{
     margin: 10px;
 }
 
+a.contacts:hover{
+    background-color: var(--contactHoverBg);
+}
+a.contacts:active{
+    box-shadow: none;
+
+}
 /*
     imgs
 */

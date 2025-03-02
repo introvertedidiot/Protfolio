@@ -1,0 +1,107 @@
+@import url(colors.css);
+
+html {
+    scrollbar-color: var(--contentScrollBarThumb) var(--contentScrollBarTrack);
+}
+
+body {
+    width: 100%;
+    height: auto;
+    /* overflow-x: hidden; */
+
+    background-color: var(--aboutMeMainBg);
+
+    margin: 0;
+    padding: 0;
+}
+
+/* text */
+h2 {
+    display: block;
+    width: 30%;
+
+    color: var(--dividerText);
+    text-shadow: 10px 10px 10px var(--contentShadow);
+
+    border-bottom: 10px double var(--contentTitleBorder);
+
+    font-size: 3em;
+    text-align: center;
+
+    box-sizing: border-box;
+
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+
+    color: var(--text);
+    font-size: 1.75em;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* content */
+.contentContainer {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img {
+    float: right;
+    display: block;
+    width: 50%;
+    border: 10px solid var(--contentBorder);
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    margin-bottom: 10px;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 800px) {
+    h2 {
+        width: 40%;
+        font-size: 3em;
+
+    }
+    p {
+        font-size: 1.75em;
+    }
+
+    .contentContainer {
+        width: 100%;
+    }
+
+    img {
+        float: none;
+
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    h2 {
+        font-size: 2em;
+
+    }
+    p {
+        font-size: 1em;
+    }
+}

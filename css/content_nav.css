@@ -31,14 +31,14 @@ body {
 h1 {
     display: block;
     background-color: var(--pageHeaderBg);
-
+    color: var(--title);
     font-size: 5em;
     text-align: center;
 }
 
 h2 {
     display: block;
-    color: var(--contentDividers);
+    color: var(--dividerText);
     font-size: 2.5em;
     text-align: center;
 
@@ -50,6 +50,8 @@ h2 {
 h3 {
     display: block;
     white-space: wrap;
+
+    color: var(--contentHeader);
 
     font-size: 2em;
     text-align: center;
@@ -115,6 +117,7 @@ section.flexContainer {
 
     width: 100%;
     padding: var(--scrollContainerPadding);
+
     margin-bottom: var(--scrollContainerMargin);
 
     box-sizing: border-box;
@@ -131,7 +134,9 @@ section.flexContainer {
 
     background-color: var(--contentBg);
 
-    margin: var(--contentMargin);
+    margin-left: var(--contentMargin);
+    margin-right: var(--contentMargin);
+
     border: 15px solid var(--contentBorder);
     box-shadow: 10px 5px 5px var(--contentShadow);
 
@@ -149,8 +154,6 @@ section.flexContainer {
 }
 
 .backedImg {
-    /* display: block; */
-
     background-color: var(--contentImgBg);
 }
 
@@ -169,7 +172,7 @@ img {
 /*
     responsive design  
 */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     h1 {
         font-size: 4em;
     }
@@ -186,26 +189,23 @@ img {
     
     section.flexContainer {
         display: block;
+
         justify-content: center;
         align-items: center;
-    
-        overflow-y: show;
-    
-        overflow-x: auto;
+
         white-space: nowrap;
+        overflow-x: auto;
     
         scrollbar-color: var(--contentScrollBarThumb) var(--contentScrollBarTrack);
-        background: linear-gradient(to bottom, var(--contentColorGrad1), var(--contentColorGrad2));
     
         width: 100%;
-    
-        box-sizing: border-box;
-        padding: var(--scrollContainerPadding);
-        margin-bottom: var(--scrollContainerMargin);
+        height: 10%;
     }
 
     .navContainer {
         width: 60%;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 }
 

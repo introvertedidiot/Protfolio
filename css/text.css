@@ -5,8 +5,6 @@ a {
 }
 
 h1 {
-    color: var(--title);
-
     font-size: 3em;
     font-weight: bold;
 
@@ -15,8 +13,6 @@ h1 {
 }
 
 h2 {
-    color: var(--text);
-
     font-size: 2em;
 
     margin: 0px;
@@ -24,8 +20,6 @@ h2 {
 }
 
 h3 {
-    color: var(--text);
-
     font-size: 1.75em;
     font-weight: bold;
     box-sizing: border-box;
