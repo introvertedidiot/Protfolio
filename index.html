@@ -4,83 +4,123 @@
 <head>
     <title>Brenna Boulet - Home</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/site_style.css">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/content_nav.css">
 </head>
 
-<header>
-    <h1>
-        Brenna Boulet
-    </h1>
-    <nav class="mainNav">
-
-        <a href="index.html">
-            Home
-        </a>
-
-        <a href="about_me.html">
-            About Me
-        </a>
-
-        <div class="dorpDown">
-            <a onclick="ToggleSection('ResDropDown')"> Resume And Cv </a>
-            <div id="ResDropDown" class="dropdown-content">
-                <a onclick="HideSection('ResDropDown')" href="resume.html">
-                    Resume
-                </a>
-                <a onclick="HideSection('ResDropDown')" href="artest_cv.html">
-                    Artist Cv
-                </a>
-            </div>
-
-        </div>
-
-        <a href="work_display.html">
-            Work Show Case
-        </a>
-    </nav>
-
-</header>
-
 <body>
-    <div class="contentContainer">
+    <div id="content_container" class="contentScrollContainer">
+        <h1>
+            Brenna Boulet
+        </h1>
 
-        <h2 class="centerText shadowText"> Featured Work </h2>
-        <div class="featuredWorkContainer">
-            <div>
+        <section class="flexContainer">
+
+            <a href="about_me.html" class="navContainer">
+                <h3>About Me</h3>
+                <div class="backedImg">
+                    <img class="Background" src="images/site_imgs/Me.png" alt="Brenna Boulet">
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/brenna-boulet-68029823a/" class="navContainer">
+                <h3>Resume</h3>
+                <div class="backedImg">
+                    <img class="Background" src="images/site_imgs/linkdin.png" alt="linkdin">
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/brenna-boulet-68029823a/" class="navContainer">
+                <h3>ArtistCv</h3>
+                <div class="backedImg">
+                    <img class="Background" src="images/site_imgs/linkdin.png" alt="linkdin">
+                </div>
+            </a>
+
+        </section>
+
+        <h2 class="divider"> Characters </h2>
+
+        <section class="scrollContainer">
+            <a class="navContainer">
+                <h3>Winter Trio</h3>
                 <img src="images/works/Winter_Trio.jpg" alt="Winter_Trio">
+            </a>
 
+            <a class="navContainer">
+                <h3>Line Up</h3>
+                <img src="images/works/Untitled_Artwork.jpg" alt="Untitled_Artwork">
+            </a>
 
-                <h2 class="paddedText centerText shadowText"> Winter Trio </h2>
-            </div>
+        </section>
 
-            <div>
+        <section class="scrollContainer">
+            <a class="navContainer">
+                <h3>Aeris X Flit</h3>
                 <img src="images/works/Aeris_X_Flit.jpg" alt="Aeris_X_Flit">
+            </a>
 
-                <h2 class="paddedText centerText shadowText"> Aeris X Flit </h2>
+            <a class="navContainer">
+                <h3>Maren</h3>
+                <img src="images/works/Maren_.jpg" alt="Maren_">
+            </a>
+
+            <a class="navContainer">
+                <h3>Aeris X Flit</h3>
+                <img src="images/works/Aeris_X_Flit.jpg" alt="Aeris_X_Flit">
+            </a>
+
+            <a class="navContainer">
+                <h3>Untitled</h3>
+                <img src="images/works/Untitled_Artwork.png" alt="Untitled_Artwork">
+            </a>
+
+        </section>
+
+        <h2 class=" divider"> Landscapes </h2>
+
+        <section class=" scrollContainer">
+            <a class="navContainer">
+                <h3>Contrast Of Extension -Brilliance</h3>
+                <img src="images/works/Contrast_Of_Extension_-_Brilliance.jpg" alt="Contrast_Of_Extension">
+            </a>
+
+            <a class="navContainer">
+                <h3>Dynamic room 03</h3>
+                <img src="images/works/Dynamicroom03.jpg" alt="Dynamicroom03">
+            </a>
+
+            <a class="navContainer">
+                <h3>Dynamic room 04</h3>
+                <img src="images/works/Dynamicroom04.jpg" alt="Dynamicroom04">
+            </a>
+
+        </section>
+
+        <h2 class="divider"> Animations </h2>
+
+        <section class="scrollContainer">
+
+            <div class="navContainer">
+                <a class="sectionContent">
+                    <h3>Fillip Animation</h3>
+                    <img src="images/works/FillipAnimSheet.jpg" alt="Fillip_Animation">
+                </a>
             </div>
 
-            <div>
-                <img src="images/works/Maren_.jpg" alt="Maren">
 
-                <h2 class="paddedText centerText shadowText"> Maren </h2>
-            </div>
+        </section>
 
-            <div>
-                <img src="images/works/Untitled_Artwork.jpg" alt="template">
-
-                <h2 class="paddedText centerText shadowText"> Line Up </h2>
-            </div>
-
-        
-        </div>
     </div>
-    
-    <script src="js/SiteNav.js"></script>
-
 </body>
 
 </html>

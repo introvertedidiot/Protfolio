@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Brenna B - Resume</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/site_style.css">
+</head>
+
+<header>
+    <h1>
+        Brenna Boulet
+    </h1>
+    <nav class="mainNav">
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="about_me.html">
+            About Me
+        </a>
+
+        <div class="dorpDown">
+            <a onclick="ToggleSection('ResDropDown')"> Resume And Cv </a>
+            <div id="ResDropDown" class="dropdown-content">
+                <a onclick="HideSection('ResDropDown')" href="resume.html">
+                    Resume
+                </a>
+                <a onclick="HideSection('ResDropDown')" href="artest_cv.html">
+                    Artist Cv
+                </a>
+            </div>
+
+        </div>
+
+        <a href="work_display.html">
+            Work Show Case
+        </a>
+    </nav>
+
+
+</header>
+
+<body>
+    <div class="contentContainer">
+
+        <iframe src="images/Resume.pdf" frameborder="0"></iframe>
+
+    </div>
+
+    <script src="js/SiteNav.js"></script>
+</body>
+
+</html>

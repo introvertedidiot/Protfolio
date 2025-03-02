@@ -1,0 +1,28 @@
+/* 
+contains the colors of the site
+*/
+
+:root {
+    --headerBg: #c7d8cf;
+    --mainSectionBg: #f4ebda;
+    /* f4ebda */
+
+    --headerShadow: #1c2733;
+    --workShadow: #000000;
+
+    /* buttons/site nav Tabs */
+
+    --navButtonBg: #a3b8ac;
+    --navButtonHoverBg: #afd4bf;
+    --navButtonShadow: #000000;
+    
+    /* scroll bar */
+    --scrollBarThumb: #d8dfca;
+    --scrollBarTrack: #ac9e9b;
+
+    /* text color */
+    --textColor: #22160f;
+    --titleText: #83665d;
+    --textHoverColor: #768b9e;
+    
+}
