@@ -1,0 +1,225 @@
+@import url(colors.css);
+
+:root {
+    --scrollContainerPadding: 15px;
+    --scrollContainerMargin: 10px;
+
+    --dividerTopMargin: 20px;
+    --dividerBotMargin: 10px;
+
+
+    --contentPadding: 10px;
+    --contentMargin: 10px;
+}
+
+html {
+    scrollbar-color: var(--contentScrollBarThumb) var(--contentScrollBarTrack);
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+
+    background-color: var(--contentMainBg);
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/* text */
+h1 {
+    display: block;
+    background-color: var(--pageHeaderBg);
+    color: var(--title);
+    font-size: 5em;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    color: var(--dividerText);
+    font-size: 2.5em;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+h3 {
+    display: block;
+    white-space: wrap;
+
+    color: var(--contentHeader);
+
+    font-size: 2em;
+    text-align: center;
+
+    box-sizing: border-box;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--contentPadding);
+}
+
+/* main content stuff*/
+
+.divider {
+    width: 100%;
+    height: auto;
+
+    background-color: var(--contentDivider);
+    margin-top: var(--dividerTopMargin);
+    margin-bottom: var(--dividerBotMargin);
+
+    box-sizing: border-box;
+}
+
+.contentScrollContainer {
+    width: 99%;
+    height: auto;
+
+    overflow-y: auto;
+
+    box-sizing: border-box;
+    padding: var(--scrollContainerPadding);
+
+    box-sizing: border-box;
+}
+
+/* navigation sections*/
+section.scrollContainer {
+    justify-content: center;
+    align-items: center;
+
+    overflow-y: show;
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+    scrollbar-color: var(--contentScrollBarThumb) var(--contentScrollBarTrack);
+    background: linear-gradient(to bottom, var(--contentColorGrad1), var(--contentColorGrad2));
+
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: var(--scrollContainerPadding);
+    margin-bottom: var(--scrollContainerMargin);
+}
+
+section.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to bottom, var(--contentColorGrad1), var(--contentColorGrad2));
+
+    width: 100%;
+    padding: var(--scrollContainerPadding);
+
+    margin-bottom: var(--scrollContainerMargin);
+
+    box-sizing: border-box;
+}
+
+/* content */
+
+.navContainer {
+    display: inline-block;
+
+    cursor: pointer;
+    width: 20%;
+    height: auto;
+
+    background-color: var(--contentBg);
+
+    margin-left: var(--contentMargin);
+    margin-right: var(--contentMargin);
+
+    border: 15px solid var(--contentBorder);
+    box-shadow: 10px 5px 5px var(--contentShadow);
+
+    position: relative;
+}
+
+
+.navContainer:hover {
+    background-color: var(--contentHoverBg);
+    border: 15px solid var(--contentBorderHover);
+}
+
+.navContainer:hover h3 {
+    color: var(--contentHeaderHover);
+}
+
+.backedImg {
+    background-color: var(--contentImgBg);
+}
+
+/* imgs */
+img {
+    display: block;
+
+    max-width: 100%;
+
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*
+    responsive design  
+*/
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    /* content */
+    
+    section.flexContainer {
+        display: block;
+
+        justify-content: center;
+        align-items: center;
+
+        white-space: nowrap;
+        overflow-x: auto;
+    
+        scrollbar-color: var(--contentScrollBarThumb) var(--contentScrollBarTrack);
+    
+        width: 100%;
+        height: 10%;
+    }
+
+    .navContainer {
+        width: 60%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+}

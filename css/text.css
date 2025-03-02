@@ -1,0 +1,31 @@
+@import url(colors.css);
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2em;
+
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/*
+    responsive design  
+*/

@@ -3,26 +3,61 @@ contains the colors of the site
 */
 
 :root {
-    --headerBg: #c7d8cf;
-    --mainSectionBg: #f4ebda;
-    /* f4ebda */
 
-    --headerShadow: #1c2733;
-    --workShadow: #000000;
+    --pageHeaderBg: rgb(48, 47, 47);
+    --pageHeaderHoverBg: rgb(105, 103, 103);
 
-    /* buttons/site nav Tabs */
+    --mainScrollBarThumb: #d8dfca;
+    --mainScrollBarTrack: #ac9e9b;
 
-    --navButtonBg: #a3b8ac;
-    --navButtonHoverBg: #afd4bf;
-    --navButtonShadow: #000000;
-    
-    /* scroll bar */
-    --scrollBarThumb: #d8dfca;
-    --scrollBarTrack: #ac9e9b;
+    --headerShadow: rgb(22, 21, 21);
 
-    /* text color */
-    --textColor: #22160f;
-    --titleText: #83665d;
-    --textHoverColor: #768b9e;
-    
+    /* content nav colors */
+    --contentMainBg: rgb(19, 17, 17);
+
+    --contentDivider: rgb(48, 47, 47);
+
+    --contentColorGrad1: rgb(48, 47, 47);
+    --contentColorGrad2: rgb(121, 121, 121);
+
+    --contentImgBg: rgb(90, 74, 74);
+
+    --contentBg: rgb(87, 31, 31);
+    --contentHoverBg: rgb(153, 53, 53);
+
+    --contentBorder: rgb(0, 0, 0);
+    --contentBorderHover: rgb(126, 109, 109);
+    --contentShadow: rgb(22, 21, 21);
+
+    --contentScrollBarThumb: #d8dfca;
+    --contentScrollBarTrack: #ac9e9b;
+
+    /*
+        about me colors
+    */
+    --aboutMeMainBg: rgb(109, 100, 100);
+    --aboutMeContentBg: rgb(78, 72, 72);
+
+    --profilePicBg: rgb(95, 89, 89);
+    --profilePicShadow: rgb(24, 22, 22);
+    --contactBg: rgb(199, 185, 185);
+    --contactHoverBg: rgb(240, 216, 216);
+
+    /* content */
+    --contentTitleBorder: rgb(0, 0, 0);
+    --contentBorder: #313130;
+
+    /*
+        text color
+    */
+    --text: #ddd3cd;
+    --textHover: #d8d8d8;
+
+    --title: #a59d98;
+    --titleHover: #d8d8d8;
+
+    --dividerText: #d6d3d1;
+
+    --contentHeader: #867a7a;
+    --contentHeaderHover: #e7cccc;
 }
