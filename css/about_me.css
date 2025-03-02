@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    width: 100vw;
+    /* width: 100vw; */
 
     overflow-x: hidden;
 
@@ -36,7 +36,8 @@ h2 {
 p {
     color: var(--text);
     font-size: 1.75em;
-    margin: 5px;
+    margin: 10px;
+
     padding: 0;
 }
 
@@ -45,15 +46,14 @@ p.left {
 }
 
 /* content */
-.contentContainer{
-    height: 100%;
+.contentContainer {
+    height: 90%;
     background-color: var(--aboutMeContentBg);
 
     box-sizing: border-box;
-    
+
     margin: 10px;
     margin-top: 20px;
-
     padding: 10px;
 }
 
@@ -70,10 +70,9 @@ p.left {
     width: 25%;
     box-sizing: border-box;
     margin: 10px;
-    padding: 10px;
 }
 
-.contactInfoContainer section{
+.contactInfoContainer section {
     display: flex;
     width: 100%;
 
@@ -82,7 +81,7 @@ p.left {
     align-items: center;
 }
 
-a.contacts{
+a.contacts {
     display: block;
 
     width: 20%;
@@ -94,13 +93,15 @@ a.contacts{
     margin: 10px;
 }
 
-a.contacts:hover{
+a.contacts:hover {
     background-color: var(--contactHoverBg);
 }
-a.contacts:active{
+
+a.contacts:active {
     box-shadow: none;
 
 }
+
 /*
     imgs
 */
@@ -114,7 +115,66 @@ img.profilePic {
     margin-bottom: 20px;
 }
 
-a.contacts img{
+a.contacts img {
     width: 100%;
 }
 
+
+@media screen and (max-width: 1100px) {
+   
+
+    .contactInfoContainer {
+        width: 40%;
+        height: 100%;
+       
+    }
+    a.contacts {
+        display: block;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 800px) {
+    h2 {
+        width:  100%;
+        font-size: 2em;
+        margin-left: 0px;
+    }
+
+    p {
+        font-size: 1.75em;
+    }
+
+    .contactInfoContainer {
+        height: 90%;
+    }
+
+    a.contacts {
+        display: block;
+        width: 30%;
+    }
+
+    img.profilePic {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 1.25em;
+    }
+
+    .contactInfoContainer {
+        float: none;
+
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img.profilePic {
+        width: 100%;
+    }
+
+
+}
