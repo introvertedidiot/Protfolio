@@ -29,6 +29,7 @@ h2 {
     margin: 5px;
     margin-top: 20px;
     margin-bottom: 10px;
+    box-shadow: 10px 5px 5px var(--contentShadow);
 
     padding: 5px;
 }

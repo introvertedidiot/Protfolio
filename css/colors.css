@@ -4,30 +4,30 @@ contains the colors of the site
 
 :root {
 
-    --pageHeaderBg: rgb(48, 47, 47);
-    --pageHeaderHoverBg: rgb(105, 103, 103);
+    --pageHeaderBg: #5C4D3C;
+    --pageHeaderHoverBg: #815839;
 
-    --mainScrollBarThumb: #d8dfca;
-    --mainScrollBarTrack: #ac9e9b;
+    --mainScrollBarThumb: #CCC5B9 ;
+    --mainScrollBarTrack: #403D39;
 
-    --headerShadow: rgb(22, 21, 21);
+    --headerShadow: #252422;
 
     /* content nav colors */
-    --contentMainBg: rgb(19, 17, 17);
+    --contentMainBg: #1a1918;
 
-    --contentDivider: rgb(48, 47, 47);
+    --contentDivider: #5C4D3C;
 
-    --contentColorGrad1: rgb(48, 47, 47);
-    --contentColorGrad2: rgb(121, 121, 121);
+    --contentColorGrad1: #5C4D3C;
+    --contentColorGrad2: #2c2825;
 
-    --contentImgBg: rgb(90, 74, 74);
+    --contentImgBg: #463f3a;
 
-    --contentBg: rgb(87, 31, 31);
-    --contentHoverBg: rgb(153, 53, 53);
+    --contentBg: #A68A64;
+    --contentHoverBg: #B6AD90;
 
     --contentBorder: rgb(0, 0, 0);
     --contentBorderHover: rgb(126, 109, 109);
-    --contentShadow: rgb(22, 21, 21);
+    --contentShadow: #252422;
 
     --contentScrollBarThumb: #d8dfca;
     --contentScrollBarTrack: #ac9e9b;
@@ -39,7 +39,8 @@ contains the colors of the site
     --aboutMeContentBg: rgb(78, 72, 72);
 
     --profilePicBg: rgb(95, 89, 89);
-    --profilePicShadow: rgb(24, 22, 22);
+    --profilePicShadow: #252422;
+
     --contactBg: rgb(199, 185, 185);
     --contactHoverBg: rgb(240, 216, 216);
 
@@ -50,14 +51,14 @@ contains the colors of the site
     /*
         text color
     */
-    --text: #ddd3cd;
-    --textHover: #d8d8d8;
+    --text: #ccc5b9;
+    --textHover: #fffcf2;
 
-    --title: #a59d98;
-    --titleHover: #d8d8d8;
+    --title: #ccc5b9;
+    --titleHover: #F5F1ED;
 
-    --dividerText: #d6d3d1;
+    --dividerText: #ccc5b9;
 
-    --contentHeader: #867a7a;
-    --contentHeaderHover: #e7cccc;
+    --contentHeader: #ccc5b9;
+    --contentHeaderHover: #fffcf2;
 }
