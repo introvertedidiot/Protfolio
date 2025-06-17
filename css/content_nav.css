@@ -124,7 +124,6 @@ section.flexContainer {
 }
 
 /* content */
-
 .navContainer {
     display: inline-block;
 
@@ -143,7 +142,6 @@ section.flexContainer {
     position: relative;
 }
 
-
 .navContainer:hover {
     background-color: var(--contentHoverBg);
     border: 15px solid var(--contentBorderHover);
@@ -151,6 +149,24 @@ section.flexContainer {
 
 .navContainer:hover h3 {
     color: var(--contentHeaderHover);
+}
+
+.navContainer2 {
+    display: inline-block;
+
+    cursor: pointer;
+    width: 20%;
+    height: auto;
+
+    background-color: var(--contentBg);
+
+    margin-left: var(--contentMargin);
+    margin-right: var(--contentMargin);
+
+    border: 15px solid var(--contentBorder);
+    box-shadow: 10px 5px 5px var(--contentShadow);
+
+    position: relative;
 }
 
 .backedImg {
